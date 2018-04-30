@@ -6,7 +6,7 @@ package register;
 public class Main {
 
     public static void main(String[] args) throws Exception {
-        Register register = new ArrayRegister(20);
+        register.Register register = new ArrayRegister(20);
 
         register.addPerson(new register.Person("Janko Hrasko", "0900123456"));
 

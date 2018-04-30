@@ -1,8 +1,9 @@
-package register;
+package test.register;
 
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
+import register.Person;
 
 import static org.junit.Assert.*;
 
@@ -22,7 +23,7 @@ public class PersonTest {
 */
     @Test
     public void getName() {
-        Person p1 = new Person("A B", "0900123456");
+        register.Person p1 = new Person("A B", "0900123456");
         assertEquals("A B", p1.getName());
         assertNotEquals("C D", p1.getName());
     }
@@ -45,7 +46,7 @@ public class PersonTest {
         Person p1 = new Person("A B", "0900123456");
         p1.setPhoneNumber("0900654321");
         assertEquals("0900654321",p1.getPhoneNumber());
-        
+
     }
 
   /*  @Test

@@ -1,4 +1,4 @@
-package register;
+package test.register;
 
 import register.ArrayRegister;
 import register.Person;

@@ -3,7 +3,7 @@ package register;
 /**
  * register.Person register.
  */
-public class ArrayRegister implements Register {
+public class ArrayRegister implements register.Register {
     /** register.Person array. */
     private register.Person[] persons;
     
