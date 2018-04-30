@@ -21,7 +21,7 @@ public class ConsoleUI {
      * Menu options.
      */
     private enum Option {
-        PRINT, ADD, UPDATE, REMOVE, FIND, EXIT
+        PRINT, ADD, UPDATE, REMOVE, FIND, EXIT, ERR
     };
     
     public ConsoleUI(Register register) {
@@ -48,7 +48,9 @@ public class ConsoleUI {
                     break;
                 case EXIT:
                     return;
+
             }
+
         }
     }
     
@@ -73,10 +75,13 @@ public class ConsoleUI {
         int selection = -1;
         do {
             System.out.println("Option: ");
-            selection = Integer.parseInt(readLine());
+
+                selection = Integer.parseInt(readLine());
+
         } while (selection <= 0 || selection > Option.values().length);
-        
+        register.sort();
         return Option.values()[selection - 1];
+
     }
     
 
@@ -93,8 +98,11 @@ public class ConsoleUI {
         String name = readLine();
         System.out.println("Enter Phone Number: ");
         String phoneNumber = readLine();
-        
-        register.addPerson(new register.Person(name, phoneNumber));
+        try {
+            register.addPerson(new register.Person(name, phoneNumber));
+        }catch(RuntimeException e){
+            System.err.println(e);
+        }
     }
     
 
@@ -146,7 +154,7 @@ public class ConsoleUI {
             if(p!=null) {
                 System.out.println(p.toString());
             }else
-                System.out.println("Person not found.");
+                System.err.println("Person not found.");
         }
         if (index == 2) {
             System.out.println("Write the telephone number: ");
@@ -156,7 +164,7 @@ public class ConsoleUI {
             if(p!=null) {
                 System.out.println(p.toString());
             }else
-                System.out.println("Person not found.");
+                System.err.println("Person not found.");
 
         }
 
@@ -164,9 +172,18 @@ public class ConsoleUI {
     
     private void removeFromRegister() {
         System.out.println("Enter index: ");
+
         int index = Integer.parseInt(readLine());
-        register.Person person = register.getPerson(index - 1);
-        register.removePerson(person);
+        try {
+            register.Person person = register.getPerson(index - 1);
+            register.removePerson(person);
+        }catch(IndexOutOfBoundsException e){
+            System.err.println("wrong index");
+            return;
+        }
+
+
+
     }
 
 }

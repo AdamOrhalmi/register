@@ -45,9 +45,7 @@ public class ArrayRegister implements register.Register {
      */
     @Override
     public register.Person getPerson(int index) {
-
-            return persons[index];
-
+      return persons[index];
 
     }
 
@@ -125,6 +123,12 @@ public class ArrayRegister implements register.Register {
     public void removePerson(register.Person person) {
         register.Person[] newPersons = new register.Person[persons.length];
         int i=0;
+        int originalCount = count;
+        if(person == null){
+
+                System.err.println("Action failed, person not found");
+            return;
+        }
         for(int j=0; j<persons.length; j++){
             register.Person p = persons[j];
             if(p != null) {
@@ -136,10 +140,10 @@ public class ArrayRegister implements register.Register {
         }
         persons = newPersons;
         count--;
-        sortArray();
-    }
-    private void sortArray(){
 
+
+    }
+    public void sort(){
     }
 
 }

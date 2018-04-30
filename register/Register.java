@@ -14,4 +14,5 @@ public interface Register {
     Person findPersonByPhoneNumber(String phoneNumber);
 
     void removePerson(Person person);
+    void sort();
 }

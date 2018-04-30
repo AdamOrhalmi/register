@@ -6,7 +6,7 @@ import java.util.regex.Pattern;
 /**
  * register.Person.
  */
-public class Person {
+public class Person implements Comparable {
     /** Name of this person. */
     private String name;
     
@@ -57,7 +57,6 @@ public class Person {
         }
         phoneNumber = phoneNumberNew;
     }
-    
 
     /**
      * Validates the phone number. Valid phone numbers contains only digits.
@@ -81,4 +80,10 @@ public class Person {
     }
 
 
+
+
+    @Override
+    public int compareTo(Object o) {
+        return this.name.compareTo(((Person)o).getName());
+    }
 }

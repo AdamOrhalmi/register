@@ -8,19 +8,7 @@ import register.Person;
 import static org.junit.Assert.*;
 
 public class PersonTest {
-/*
-    @Before
-    public void setUp() throws Exception {
-        Person p1 = new Person("A B", "0900123456");
-        Person p2 = new Person("C D", "0900654321");
-    }
 
-    @After
-    public void tearDown() throws Exception {
-
-
-    }
-*/
     @Test
     public void getName() {
         register.Person p1 = new Person("A B", "0900123456");
@@ -38,18 +26,19 @@ public class PersonTest {
     @Test
     public void getPhoneNumber() {
         Person p1 = new Person("A B", "0900123456");
-        assertEquals("0900123456",p1.getPhoneNumber());
+        assertEquals("0900123456", p1.getPhoneNumber());
     }
 
     @Test
     public void setPhoneNumber() {
         Person p1 = new Person("A B", "0900123456");
         p1.setPhoneNumber("0900654321");
-        assertEquals("0900654321",p1.getPhoneNumber());
-
+        assertEquals("0900654321", p1.getPhoneNumber());
     }
 
-  /*  @Test
-    public void toString() {
-    }*/
+    @Test
+    public void toStringConversion() {
+        Person p1 = new Person("A B", "0900123456");
+        assertEquals("A B (0900123456)", p1.toString());
+    }
 }
