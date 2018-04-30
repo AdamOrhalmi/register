@@ -118,11 +118,16 @@ public class ConsoleUI {
                 register.addPerson(newPerson);
             }
             if (index == 2) {
-                System.out.println("Write new telephone number: ");
-                number = readLine();
-                newPerson.setPhoneNumber(number);
-                register.removePerson(person);
-                register.addPerson(newPerson);
+              try {
+                  System.out.println("Write new telephone number: ");
+                  number = readLine();
+                  newPerson.setPhoneNumber(number);
+                  register.removePerson(person);
+                  register.addPerson(newPerson);
+              }catch( RuntimeException e){
+                  System.err.println(e.getMessage());
+                  return;
+              }
             }
         }
         else System.out.println("wrong index.");

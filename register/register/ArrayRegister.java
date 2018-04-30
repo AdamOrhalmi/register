@@ -45,7 +45,10 @@ public class ArrayRegister implements Register {
      */
     @Override
     public register.Person getPerson(int index) {
-        return persons[index];
+
+            return persons[index];
+
+
     }
 
     /**
@@ -54,16 +57,19 @@ public class ArrayRegister implements Register {
      */
     @Override
     public void addPerson(register.Person person) {
-        for (int i=0; i<persons.length; i++){
+        for (int i=0; i<persons.length; i++) {
             Person p = persons[i];
-            if(p.getPhoneNumber().equals(person.getPhoneNumber())){
+            if (p != null) {
+
+            if (p.getPhoneNumber().equals(person.getPhoneNumber())) {
                 System.out.println("action failed, this person's telephone number is already in the list.");
                 break;
             }
-            if(p.getName().equals(person.getName())){
+            if (p.getName().equals(person.getName())) {
                 System.out.println("action failed, this person's name is already in the list.");
                 break;
             }
+        }
         }
         persons[count] = person;
         count++;

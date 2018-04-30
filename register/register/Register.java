@@ -5,7 +5,7 @@ public interface Register {
 
     int getSize();
 
-    Person getPerson(int index);
+    register.Person getPerson(int index);
 
     void addPerson(Person person);
 
