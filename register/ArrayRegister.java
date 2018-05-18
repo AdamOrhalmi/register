@@ -145,5 +145,9 @@ public class ArrayRegister implements register.Register {
     }
     public void sort(){
     }
+    public void save(){}
+    public static ArrayRegister load(){
+        return null;
+    }
 
 }

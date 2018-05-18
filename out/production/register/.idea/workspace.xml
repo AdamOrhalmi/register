@@ -2,8 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0519eb94-b701-4be8-820b-9a9abef3a188" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/register/SORM.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/register/SORMException.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/register/ArrayRegisterTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/register/ArrayRegisterTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/register/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/register/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/register/register/ConsoleUI$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/register/register/ConsoleUI$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/register/register/ConsoleUI.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/register/register/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/register/register/Person.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/register/register/Person.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/register/register/Register.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/register/ArrayRegister.java" beforeDir="false" afterPath="$PROJECT_DIR$/register/ArrayRegister.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/register/ConsoleUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/register/ConsoleUI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/register/ListRegister.java" beforeDir="false" afterPath="$PROJECT_DIR$/register/ListRegister.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/register/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/register/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/register/Register.java" beforeDir="false" afterPath="$PROJECT_DIR$/register/Register.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/register/PersonTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/register/PersonTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -18,24 +31,23 @@
       <file leaf-file-name="ConsoleUI.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/register/ConsoleUI.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="350">
-              <caret line="147" column="17" lean-forward="true" selection-start-line="147" selection-start-column="17" selection-end-line="147" selection-end-column="17" />
+            <state relative-caret-position="374">
+              <caret line="24" column="5" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
               <folding>
-                <element signature="method#run#0;class#ConsoleUI#0" />
-                <element signature="method#addToRegister#0;class#ConsoleUI#0" />
-                <element signature="method#updateRegister#0;class#ConsoleUI#0" />
+                <element signature="method#findInRegister#0;class#ConsoleUI#0" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Person.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/register/Person.java">
+      <file leaf-file-name="Register.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/register/Register.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-109">
-              <caret column="12" selection-start-column="12" selection-end-column="12" />
+            <state relative-caret-position="306">
+              <caret line="19" column="20" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#365#366#0" expanded="true" />
+                <element signature="e#392#393#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -44,32 +56,42 @@
       <file leaf-file-name="PersonTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/register/PersonTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="537">
-              <caret line="40" column="55" lean-forward="true" selection-start-line="40" selection-start-column="55" selection-end-line="40" selection-end-column="55" />
+            <state relative-caret-position="323">
+              <caret line="24" selection-start-line="24" selection-end-line="24" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ArrayRegister.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/register/ArrayRegister.java">
+      <file leaf-file-name="ListRegister.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/register/ListRegister.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="615">
-              <caret line="95" column="19" lean-forward="true" selection-start-line="95" selection-start-column="15" selection-end-line="95" selection-end-column="19" />
+            <state relative-caret-position="452">
+              <caret line="78" selection-start-line="78" selection-end-line="78" />
               <folding>
-                <element signature="docComment;method#findPersonByName#0;class#ArrayRegister#0" />
+                <element signature="imports" expanded="true" />
+                <element signature="method#findPersonByPhoneNumber#0;class#ListRegister#0" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ArrayRegisterTest.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/test/register/ArrayRegisterTest.java">
+      <file leaf-file-name="Person.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/register/Person.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="24" column="44" lean-forward="true" selection-start-line="24" selection-start-column="44" selection-end-line="24" selection-end-column="44" />
+            <state relative-caret-position="323">
+              <caret line="21" column="52" selection-start-line="21" selection-start-column="52" selection-end-line="21" selection-end-column="52" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/register/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="8" column="56" selection-start-line="8" selection-start-column="56" selection-end-line="8" selection-end-column="56" />
             </state>
           </provider>
         </entry>
@@ -80,6 +102,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -93,18 +116,35 @@
         <option value="$PROJECT_DIR$/Person.java" />
         <option value="$PROJECT_DIR$/ConsoleUI.java" />
         <option value="$PROJECT_DIR$/Register.java" />
-        <option value="$PROJECT_DIR$/register/Main.java" />
-        <option value="$PROJECT_DIR$/register/Register.java" />
-        <option value="$PROJECT_DIR$/register/ConsoleUI.java" />
         <option value="$PROJECT_DIR$/register/register/ConsoleUI.java" />
         <option value="$PROJECT_DIR$/register/register/ArrayRegister.java" />
         <option value="$PROJECT_DIR$/register/register/Main.java" />
         <option value="$PROJECT_DIR$/test/ArrayRegisterTest.java" />
-        <option value="$PROJECT_DIR$/test/register/PersonTest.java" />
-        <option value="$PROJECT_DIR$/register/ArrayRegister.java" />
         <option value="$PROJECT_DIR$/test/register/ArrayRegisterTest.java" />
+        <option value="$PROJECT_DIR$/register/Main.java" />
+        <option value="$PROJECT_DIR$/register/register/StreamTest.java" />
+        <option value="$PROJECT_DIR$/register/StreamTest.java" />
+        <option value="$PROJECT_DIR$/../Test1/src/com/company/StreamTest.java" />
+        <option value="$PROJECT_DIR$/register/Person.java" />
+        <option value="$PROJECT_DIR$/test/register/PersonTest.java" />
+        <option value="$PROJECT_DIR$/register/Register.java" />
+        <option value="$PROJECT_DIR$/register/ArrayRegister.java" />
+        <option value="$PROJECT_DIR$/register/ConsoleUI.java" />
+        <option value="$PROJECT_DIR$/register/register/SORM.java" />
+        <option value="$PROJECT_DIR$/register/register/SORMException.java" />
+        <option value="$PROJECT_DIR$/register/SORMException.java" />
+        <option value="$PROJECT_DIR$/register/ListRegister.java" />
       </list>
     </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-1226" />
@@ -120,6 +160,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -132,33 +173,25 @@
               <item name="register" type="462c0819:PsiDirectoryNode" />
               <item name="register" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="register" type="b2602c69:ProjectViewProjectNode" />
-              <item name="register" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="register" type="b2602c69:ProjectViewProjectNode" />
-              <item name="register" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="register" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="register" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="AndroidView" />
       <pane id="Scope" />
     </panes>
   </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Test" />
+  </component>
   <component name="RecentsManager">
     <key name="ExtractSuperBase.RECENT_KEYS">
       <recent name="register" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="register.register" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -173,7 +206,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.ArrayRegisterTest.addPerson">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="register.Main" />
       <module name="register" />
@@ -185,10 +218,21 @@
         </pattern>
       </extension>
     </configuration>
+    <configuration name="StreamTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.StreamTest" />
+      <module name="Test1" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.company.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
-    <configuration name="ArrayRegisterTest.addPerson" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ArrayRegisterTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="register" />
       <extension name="coverage">
         <pattern>
@@ -200,7 +244,53 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="test.register" />
       <option name="MAIN_CLASS_NAME" value="test.register.ArrayRegisterTest" />
-      <option name="METHOD_NAME" value="addPerson" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="ArrayRegisterTest.findPersonByName" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="register" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.register.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="test.register" />
+      <option name="MAIN_CLASS_NAME" value="test.register.ArrayRegisterTest" />
+      <option name="METHOD_NAME" value="findPersonByName" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="ArrayRegisterTest.getPerson" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="register" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.register.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="test.register" />
+      <option name="MAIN_CLASS_NAME" value="test.register.ArrayRegisterTest" />
+      <option name="METHOD_NAME" value="getPerson" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -251,12 +341,18 @@
     </configuration>
     <list>
       <item itemvalue="Application.Main" />
-      <item itemvalue="JUnit.ArrayRegisterTest.addPerson" />
+      <item itemvalue="JUnit.ArrayRegisterTest.findPersonByName" />
+      <item itemvalue="JUnit.ArrayRegisterTest" />
+      <item itemvalue="JUnit.ArrayRegisterTest.getPerson" />
+      <item itemvalue="Application.StreamTest" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.ArrayRegisterTest.addPerson" />
         <item itemvalue="Application.Main" />
+        <item itemvalue="Application.StreamTest" />
+        <item itemvalue="JUnit.ArrayRegisterTest" />
+        <item itemvalue="JUnit.ArrayRegisterTest.getPerson" />
+        <item itemvalue="JUnit.ArrayRegisterTest.findPersonByName" />
       </list>
     </recent_temporary>
   </component>
@@ -270,6 +366,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1524723592550</updated>
+      <workItem from="1526474424501" duration="1592000" />
+      <workItem from="1526631377033" duration="1016000" />
     </task>
     <task id="LOCAL-00001" summary="moved files around">
       <created>1525077838712</created>
@@ -278,126 +376,96 @@
       <option name="project" value="LOCAL" />
       <updated>1525077838712</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="List implementation">
+      <created>1525099880836</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1525099880836</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="ArrayRegisterTest_addPerson - 2018.04.30 at 11h 56m 43s.xml">
+      <configuration name="ArrayRegisterTest.addPerson" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ArrayRegisterTest_addPerson - 2018.04.30 at 11h 56m 59s.xml">
+      <configuration name="ArrayRegisterTest.addPerson" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ArrayRegisterTest_findPersonByName - 2018.04.30 at 11h 59m 33s.xml">
+      <configuration name="ArrayRegisterTest.findPersonByName" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ArrayRegisterTest - 2018.04.30 at 12h 02m 14s.xml">
+      <configuration name="ArrayRegisterTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ArrayRegisterTest_getPerson - 2018.04.30 at 12h 03m 18s.xml">
+      <configuration name="ArrayRegisterTest.getPerson" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ArrayRegisterTest - 2018.04.30 at 12h 03m 22s.xml">
+      <configuration name="ArrayRegisterTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ArrayRegisterTest - 2018.04.30 at 12h 08m 11s.xml">
+      <configuration name="ArrayRegisterTest" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="2608000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1226" y="-8" width="1234" height="1040" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info anchor="right" id="Palette" order="4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" order="9" weight="0.32972974" />
-      <window_info anchor="right" id="Palette&#9;" order="4" />
-      <window_info id="Image Layers" order="3" />
-      <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
-      <window_info anchor="right" id="Maven Projects" order="4" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32972974" />
-      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32972974" />
-      <window_info anchor="bottom" id="Terminal" order="8" />
-      <window_info id="Capture Tool" order="3" />
-      <window_info id="Designer" order="3" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24958949" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info id="UI Designer" order="3" />
-      <window_info anchor="right" id="Theme Preview" order="4" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info id="Favorites" order="3" side_tool="true" />
       <window_info anchor="right" id="Palette" order="5" />
-      <window_info id="Designer" order="4" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Capture Analysis" order="5" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="9" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info id="Favorites" order="4" side_tool="true" />
+      <window_info anchor="right" id="Palette&#9;" order="5" />
+      <window_info id="Image Layers" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="right" id="Maven Projects" order="5" />
+      <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32972974" />
-      <window_info id="Image Layers" order="4" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
       <window_info id="Capture Tool" order="4" />
+      <window_info id="Designer" order="4" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24958949" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="4" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info anchor="right" id="Palette&#9;" order="5" />
+      <window_info id="Favorites" order="4" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Messages" order="9" weight="0.32972974" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32972974" />
-      <window_info anchor="right" id="Maven Projects" order="5" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24958949" />
     </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="moved files around" />
-    <option name="LAST_COMMIT_MESSAGE" value="moved files around" />
+    <MESSAGE value="List implementation" />
+    <option name="LAST_COMMIT_MESSAGE" value="List implementation" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="3" />
+      <option name="time" value="7" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/register/ConsoleUI.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="58" column="13" lean-forward="true" selection-start-line="58" selection-start-column="13" selection-end-line="58" selection-end-column="13" />
-          <folding>
-            <element signature="method#run#0;class#ConsoleUI#0" />
-            <element signature="method#addToRegister#0;class#ConsoleUI#0" />
-            <element signature="method#updateRegister#0;class#ConsoleUI#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/register/Register.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="11" selection-start-column="11" selection-end-line="2" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/register/Person.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="833">
-          <caret line="55" column="68" selection-start-line="55" selection-start-column="68" selection-end-line="55" selection-end-column="68" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/register/PersonTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="16" column="10" selection-start-line="16" selection-start-column="10" selection-end-line="16" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/register/ArrayRegister.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="765">
-          <caret line="49" selection-start-line="49" selection-end-line="49" />
-          <folding>
-            <element signature="docComment;method#findPersonByName#0;class#ArrayRegister#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/register/ArrayRegisterTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="9" column="19" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -413,9 +481,7 @@
         <state relative-caret-position="782">
           <caret line="72" column="27" lean-forward="true" selection-start-line="72" selection-start-column="27" selection-end-line="72" selection-end-column="27" />
           <folding>
-            <element signature="method#run#0;class#ConsoleUI#0" />
-            <element signature="method#addToRegister#0;class#ConsoleUI#0" />
-            <element signature="method#updateRegister#0;class#ConsoleUI#0" />
+            <element signature="method#findInRegister#0;class#ConsoleUI#0" />
           </folding>
         </state>
       </provider>
@@ -448,9 +514,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="765">
           <caret line="49" selection-start-line="49" selection-end-line="49" />
-          <folding>
-            <element signature="docComment;method#findPersonByName#0;class#ArrayRegister#0" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -458,9 +521,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="9" column="19" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -476,9 +536,7 @@
         <state relative-caret-position="119">
           <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
           <folding>
-            <element signature="method#run#0;class#ConsoleUI#0" />
-            <element signature="method#addToRegister#0;class#ConsoleUI#0" />
-            <element signature="method#updateRegister#0;class#ConsoleUI#0" />
+            <element signature="method#findInRegister#0;class#ConsoleUI#0" />
           </folding>
         </state>
       </provider>
@@ -504,9 +562,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="884">
           <caret line="58" column="28" selection-start-line="58" selection-start-column="28" selection-end-line="58" selection-end-column="28" />
-          <folding>
-            <element signature="docComment;method#findPersonByName#0;class#ArrayRegister#0" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -521,9 +576,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="578">
           <caret line="37" column="39" selection-start-line="37" selection-start-column="39" selection-end-line="37" selection-end-column="39" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -532,9 +584,7 @@
         <state relative-caret-position="1683">
           <caret line="132" selection-start-line="132" selection-end-line="132" />
           <folding>
-            <element signature="method#run#0;class#ConsoleUI#0" />
-            <element signature="method#addToRegister#0;class#ConsoleUI#0" />
-            <element signature="method#updateRegister#0;class#ConsoleUI#0" />
+            <element signature="method#findInRegister#0;class#ConsoleUI#0" />
           </folding>
         </state>
       </provider>
@@ -612,84 +662,113 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/lang/Integer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="614" selection-start-line="614" selection-end-line="614" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/register/Main.java" />
     <entry file="file://$PROJECT_DIR$/register/Person.java" />
     <entry file="file://$PROJECT_DIR$/register/ConsoleUI.java" />
     <entry file="file://$PROJECT_DIR$/register/ArrayRegister.java" />
     <entry file="file://$PROJECT_DIR$/register/Register.java" />
-    <entry file="file://$PROJECT_DIR$/register/Main.java">
+    <entry file="file://$PROJECT_DIR$/test/ArrayRegisterTest.java" />
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/lang/Integer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="11" selection-start-column="11" selection-end-column="11" />
+        <state relative-caret-position="190">
+          <caret line="579" selection-start-line="579" selection-end-line="579" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/ArrayRegisterTest.java">
+    <entry file="file://$PROJECT_DIR$/../Test1/src/com/company/StreamTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        <state relative-caret-position="374">
+          <caret line="22" column="7" selection-start-line="22" selection-start-column="7" selection-end-line="22" selection-end-column="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/register/Person.java">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/util/ArrayList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-109">
-          <caret column="12" selection-start-column="12" selection-end-column="12" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/register/PersonTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="537">
-          <caret line="40" column="55" lean-forward="true" selection-start-line="40" selection-start-column="55" selection-end-line="40" selection-end-column="55" />
+        <state relative-caret-position="17">
+          <caret line="656" column="12" selection-start-line="656" selection-start-column="12" selection-end-line="656" selection-end-column="12" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/register/ArrayRegister.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="615">
-          <caret line="95" column="19" lean-forward="true" selection-start-line="95" selection-start-column="15" selection-end-line="95" selection-end-column="19" />
+        <state relative-caret-position="504">
+          <caret line="148" column="17" selection-start-line="148" selection-start-column="17" selection-end-line="148" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/register/ArrayRegisterTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="15" column="43" selection-start-line="15" selection-start-column="43" selection-end-line="15" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/register/SORMException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/register/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="56" selection-start-line="8" selection-start-column="56" selection-end-line="8" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/register/SORM.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/register/ConsoleUI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="24" column="5" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
           <folding>
-            <element signature="docComment;method#findPersonByName#0;class#ArrayRegister#0" />
+            <element signature="method#findInRegister#0;class#ConsoleUI#0" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/register/Register.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/register/ConsoleUI.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="147" column="17" lean-forward="true" selection-start-line="147" selection-start-column="17" selection-end-line="147" selection-end-column="17" />
+        <state relative-caret-position="306">
+          <caret line="19" column="20" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
           <folding>
-            <element signature="method#run#0;class#ConsoleUI#0" />
-            <element signature="method#addToRegister#0;class#ConsoleUI#0" />
-            <element signature="method#updateRegister#0;class#ConsoleUI#0" />
+            <element signature="e#365#366#0" expanded="true" />
+            <element signature="e#392#393#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/register/ArrayRegisterTest.java">
+    <entry file="file://$PROJECT_DIR$/test/register/PersonTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" column="44" lean-forward="true" selection-start-line="24" selection-start-column="44" selection-end-line="24" selection-end-column="44" />
+        <state relative-caret-position="323">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/register/Person.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="21" column="52" selection-start-line="21" selection-start-column="52" selection-end-line="21" selection-end-column="52" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/register/ListRegister.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="452">
+          <caret line="78" selection-start-line="78" selection-end-line="78" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#findPersonByPhoneNumber#0;class#ListRegister#0" />
           </folding>
         </state>
       </provider>

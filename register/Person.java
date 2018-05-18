@@ -1,12 +1,14 @@
 package register;
 
+import java.io.Serializable;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 /**
  * register.Person.
  */
-public class Person implements Comparable {
+
+public class Person implements Comparable, Serializable {
     /** Name of this person. */
     private String name;
     

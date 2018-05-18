@@ -10,6 +10,7 @@ import java.io.InputStreamReader;
 public class ConsoleUI {
     /** arrayRegister.ArrayRegister of persons. */
     private Register register;
+    private SORM sorm;
     
     /**
      * In JDK 6 use Console class instead.
@@ -21,14 +22,23 @@ public class ConsoleUI {
      * Menu options.
      */
     private enum Option {
-        PRINT, ADD, UPDATE, REMOVE, FIND, EXIT, ERR
-    };
+        PRINT, ADD, UPDATE, REMOVE, FIND, EXIT
+    }
     
-    public ConsoleUI(Register register) {
+    public ConsoleUI(Register register, SORM sorm) {
         this.register = register;
+        this. sorm = sorm;
     }
     
     public void run() {
+        Register registerNew = ListRegister.load();
+
+        if (registerNew!=null){
+            this.register= registerNew;
+        }else{
+            System.err.println("no data loaded.");
+        }
+
         while (true) {
             switch (showMenu()) {
                 case PRINT:
@@ -47,6 +57,21 @@ public class ConsoleUI {
                     findInRegister();
                     break;
                 case EXIT:
+                    try {
+                        sorm.truncate(Person.class);
+
+                    } catch (Exception e) {
+                        e.printStackTrace();
+                    }
+                    for(int i=0; i<register.getSize(); i++){
+                        Person p = register.getPerson(i);
+                        try {
+                            sorm.insert(p);
+                        } catch (Exception e) {
+                            e.printStackTrace();
+                        }
+                    }
+                    register.save();
                     return;
 
             }

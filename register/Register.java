@@ -15,4 +15,8 @@ public interface Register {
 
     void removePerson(Person person);
     void sort();
+    void save();
+    static Register load(){
+        return null;
+    };
 }
